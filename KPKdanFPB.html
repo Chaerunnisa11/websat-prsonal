@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPB dan KPK</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('gambar/download1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: white;
+        }
+        .content {
+            text-align: left;
+            max-width: 90%; 
+            width: 100%;
+            padding: 20px; 
+            margin: 20px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #2ecc71;
+            font-size: 2.5em;
+        }
+        h1 {
+            text-align: center;
+        }
+        .example {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-left: 5px solid #3498db;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1.2em;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        table, th, td {
+            border: 1px solid #bdc3c7;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        ul {
+            padding-left: 20px;
+            font-size: 1.2em;
+        }
+        @media (max-width: 768px) {
+            .content {
+                padding: 10px; 
+            }
+            table, th, td {
+                font-size: 1em; 
+            }
+        }
+        footer {
+            margin-top: auto;
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Faktor Persekutuan Terbesar (FPB) dan Kelipatan Persekutuan Terkecil (KPK)</h1>
+
+        <h2>Faktor Persekutuan Terbesar (FPB)</h2>
+        <p>FPB adalah bilangan bulat terbesar yang dapat membagi dua atau lebih bilangan bulat tanpa sisa.</p>
+        
+        <h3>Cara Mencari FPB</h3>
+        <ol>
+            <li>Lakukan faktorisasi prima dari masing-masing bilangan.</li>
+            <li>Ambil faktor-faktor prima yang sama dengan pangkat terkecil.</li>
+            <li>Kalikan faktor-faktor tersebut untuk mendapatkan FPB.</li>
+        </ol>
+
+        <div class="example">
+            <h4>Contoh:</h4>
+            Cari FPB dari 18 dan 24:<br>
+            <code>18 = 2 × 3²</code><br>
+            <code>24 = 2³ × 3</code><br>
+            Faktor prima yang sama adalah 2 dan 3. Ambil pangkat terkecil:<br>
+            <code>FPB = 2 × 3 = 6</code><br>
+            Jadi, <strong>FPB dari 18 dan 24 adalah 6</strong>.
+        </div>
+
+        <h2>Kelipatan Persekutuan Terkecil (KPK)</h2>
+        <p>KPK adalah bilangan bulat positif terkecil yang merupakan kelipatan dari dua atau lebih bilangan.</p>
+
+        <h3>Cara Mencari KPK</h3>
+        <ol>
+            <li>Lakukan faktorisasi prima dari masing-masing bilangan.</li>
+            <li>Ambil semua faktor prima dengan pangkat terbesar.</li>
+            <li>Kalikan semua faktor tersebut untuk mendapatkan KPK.</li>
+        </ol>
+
+        <div class="example">
+            <h4>Contoh:</h4>
+            Cari KPK dari 18 dan 24:<br>
+            <code>18 = 2 × 3²</code><br>
+            <code>24 = 2³ × 3</code><br>
+            Ambil semua faktor prima dengan pangkat terbesar:<br>
+            <code>KPK = 2³ × 3² = 72</code><br>
+            Jadi, <strong>KPK dari 18 dan 24 adalah 72</strong>.
+        </div>
+
+        <h3>Tabel Perbandingan FPB dan KPK</h3>
+        <table>
+            <tr>
+                <th>Bilangan</th>
+                <th>FPB</th>
+                <th>KPK</th>
+            </tr>
+            <tr>
+                <td>18 dan 24</td>
+                <td>6</td>
+                <td>72</td>
+            </tr>
+            <tr>
+                <td>30 dan 45</td>
+                <td>15</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>12 dan 16</td>
+                <td>4</td>
+                <td>48</td>
+            </tr>
+        </table>
+
+        <h3>Soal Latihan</h3>
+        <ul>
+            <li>Tentukan FPB dan KPK dari 20 dan 30.</li>
+            <li>Tentukan FPB dan KPK dari 14 dan 28.</li>
+            <li>Tentukan FPB dan KPK dari 36 dan 54.</li>
+        </ul>
+    </div>
+    
+    <footer>
+        <p><a href="NISAA.html">Kembali ke halaman utama</a></p>
+    </footer>
+
+</body>
+</html>
